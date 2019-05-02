@@ -1,0 +1,113 @@
+body {
+     margin: auto 0;
+}
+
+.zone {
+    padding:0px 0px;
+    color:#FFF;
+    font-size:2em;
+    border-radius:1px;
+    border:1px solid #bbb;
+}
+
+/*NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    margin-left: auto;
+}
+
+li:hover {
+    background: rgba(0,0,0,0.03);
+}
+
+
+li {
+    padding: 20px;
+}
+
+
+/*NAV */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.cover {
+    width: 40rem;
+}
+
+.footer {
+    text-align: center;
+    font-size: 50%;
+}
+
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-color: #F6DCE7;
+    padding: 40px;
+    margin: 20px;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: #F58BBB; /* Old browsers */
+    font-family: 'Sofia', cursive;
+    color: #A3D1D1;
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.pink{
+    background: #F6DCE7; /* Old browsers */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #DF9F3E; /* Old browsers */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #F58BBB; /* Old browsers */
+}
